@@ -651,9 +651,9 @@ body.no-scroll {
 .tape__date {
     font-weight: 500;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 2.5;
     color: #0093DD;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
 }
 
 .tape__content {
@@ -1063,6 +1063,10 @@ body.no-scroll {
     .tabs__item:not(:last-child) {
         margin-right: 0;
     }
+    
+    .tabs .tape__item {
+        padding: 10px 0;
+    }
 }
 
 
@@ -1158,12 +1162,16 @@ body.no-scroll {
 }
 
 @media (max-width: 768px) {
+    .footer {
+        padding-bottom: 15px;
+    }
+    
     .footer__contact {
         display: none;
     }
     
     .footer__list {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
     
     .footer__subtitle {
