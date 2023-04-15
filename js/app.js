@@ -18,7 +18,6 @@ let mySwiper = new Swiper(slider, {
 })
 
 let mySwiper1 = new Swiper(slider1, {
-    slidesPerView: 2,
     spaceBetween: 10,
     loop: true,
     pagination: {
@@ -26,12 +25,13 @@ let mySwiper1 = new Swiper(slider1, {
         clickable: true,
     },
     breakpoints: {
-    // mobile + tablet - 320-990
+    // mobile + tablet - 320-768
     320: {
-      slidesPerView: 1
+      slidesPerView: 1.3,
+      centeredSlides: true,
     },
     // desktop >= 991
-    565: {
+    768: {
       slidesPerView: 2
     }
   }
