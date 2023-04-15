@@ -186,6 +186,15 @@ body.no-scroll {
     padding: 13px 0
 }
 
+.nav__link {
+    transition-duration: .3s;
+    transition-property: color;
+}
+
+.nav__link:hover {
+    color: #0093DD;
+}
+
 /* Burger
 ====================*/
 .page__body {
@@ -580,7 +589,13 @@ body.no-scroll {
         font-size: 32px;
     }
     
-   
+    .news__body--left,
+    .news__body--right,
+    .news__body--bot,
+    .news__body--bot__right {
+        background-position: center;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 565px) {
@@ -750,6 +765,12 @@ body.no-scroll {
 
 .accordion__title {
     text-align: left;
+    transition-duration: .3s;
+    transition-property: color;
+}
+
+.accordion__title:hover {
+    color: #000;
 }
 
 .accordion__icon {
@@ -760,6 +781,12 @@ body.no-scroll {
     padding: 15px;
     border-radius: 100%;
     background-color: #bfbfbf;
+    transition-duration: .3s;
+    transition-property: color;
+}
+
+.accordion__icon:hover {
+    background-color: #a2a1a1;
 }
 
 .accordion__icon::before {
