@@ -27,7 +27,7 @@ let mySwiper1 = new Swiper(slider1, {
     breakpoints: {
     // mobile + tablet - 320-768
     320: {
-      slidesPerView: 1.1,
+      slidesPerView: 1.15,
       centeredSlides: true,
     },
     // desktop >= 991
