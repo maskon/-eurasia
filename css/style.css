@@ -325,7 +325,7 @@ body.no-scroll {
     .header__logo {
         width: 150px;
     }
-    
+
     .header__logo img {
         width: 100%;
     }
@@ -460,7 +460,7 @@ body.no-scroll {
     .section {
         margin-top: 78px;
     }
-    
+
     .swiper-container1 {
         padding-bottom: 25px;
         margin-bottom: 20px;
@@ -471,12 +471,12 @@ body.no-scroll {
     .section {
         min-height: 200px;
     }
-    
+
     .section__title {
         font-size: 28px;
         margin-bottom: 20px;
     }
-    
+
     .section__text {
         font-size: 20px;
         margin-bottom: 20px;
@@ -566,7 +566,7 @@ body.no-scroll {
     .news {
         margin-bottom: 40px;
     }
-    
+
     .news__col {
         padding: 0px 8px;
     }
@@ -576,19 +576,19 @@ body.no-scroll {
     .title {
         font-size: 36px;
     }
-    
+
     .news__title {
         margin-bottom: 15px;
     }
-    
+
     .news__col {
         flex: 0 1 100%;
     }
-    
+
     .news__subtitle {
         font-size: 32px;
     }
-    
+
     .news__body--left,
     .news__body--right,
     .news__body--bot,
@@ -602,11 +602,11 @@ body.no-scroll {
     .news__item {
         margin-bottom: 10px;
     }
-    
+
     .news__subtitle {
         font-size: 26px;
     }
-    
+
     .news .btn {
         width: 100%;
     }
@@ -703,11 +703,11 @@ body.no-scroll {
     .tape {
         margin-bottom: 0; */
     }
-    
+
     .tape__col {
         flex: 0 1 50%;
     }
-    
+
     .tape__img {
         width: 100%;
         height: auto;
@@ -725,7 +725,7 @@ body.no-scroll {
     .tape__col {
         flex: 0 1 100%;
     }
-    
+
     .tape__title {
         font-size: 18px;
         line-height: 24px;
@@ -880,7 +880,7 @@ body.no-scroll {
     .gallery {
         margin-bottom: 40px;
     }
-    
+
     .swiper__img {
         margin: 0 10px;
     }
@@ -890,17 +890,21 @@ body.no-scroll {
     .gallery {
         margin-bottom: 10px;
     }
-    
+
     .gallery__title {
         padding: 10px 10px 5px 10px;
     }
-    
+
     .gallery__text {
         padding-bottom: 15px;
     }
-    
+
     .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
         bottom: 0px;
+    }
+
+    .swiper__img {
+        margin: 0 0px;
     }
 }
 
@@ -909,7 +913,7 @@ body.no-scroll {
         font-size: 30px;
         line-height: 36px;
     }
-    
+
     .gallery__text {
         font-size: 18px;
         line-height: 26px;
@@ -1027,7 +1031,7 @@ body.no-scroll {
     .tabs__btn {
         padding: 15px 10px;
     }
-    
+
     .tabs__title {
         font-size: 30px;
         padding-bottom: 30px;
@@ -1039,7 +1043,7 @@ body.no-scroll {
         font-size: 26px;
         padding-bottom: 25px;
     }
-    
+
     .tabs__list {
         margin-bottom: 20px;
     }
@@ -1050,20 +1054,20 @@ body.no-scroll {
         font-size: 22px;
         padding-bottom: 20px;
     }
-    
+
     .tabs__list {
         display: block;
     }
-    
+
     .tabs__btn {
         width: 100%;
         margin-bottom: 10px;
     }
-    
+
     .tabs__item:not(:last-child) {
         margin-right: 0;
     }
-    
+
     .tabs .tape__item {
         padding: 10px 0;
     }
@@ -1155,7 +1159,7 @@ body.no-scroll {
     .footer__col {
         padding: 0 10px;
     }
-    
+
     .footer__list {
         font-size: 16px;
     }
@@ -1165,15 +1169,15 @@ body.no-scroll {
     .footer {
         padding-bottom: 15px;
     }
-    
+
     .footer__contact {
         display: none;
     }
-    
+
     .footer__list {
         margin-bottom: 20px;
     }
-    
+
     .footer__subtitle {
         margin-bottom: 5px;
     }
@@ -1183,7 +1187,7 @@ body.no-scroll {
     .footer__col {
         flex: 0 1 50%;
     }
-    
+
     .footer__content {
         margin-top: 5px;
     }
