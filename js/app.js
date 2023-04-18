@@ -18,24 +18,27 @@ let mySwiper = new Swiper(slider, {
 })
 
 let mySwiper1 = new Swiper(slider1, {
-    spaceBetween: 10,
+
     loop: true,
     pagination: {
         el: '.pag-2',
         clickable: true,
     },
     breakpoints: {
-    // mobile + tablet - 320-768
+    // mobile - 320-768
     320: {
-      slidesPerView: 1.15,
+      slidesPerView: 1.25,
+      spaceBetween: 20,
       centeredSlides: true,
+      effect: 'flip',
     },
-    // desktop >= 991
+    // desktop + tablet >= 768
     768: {
-      slidesPerView: 2
+      slidesPerView: 2,
+      spaceBetween: 40,
     }
   }
-    
+
 });
 
 
